@@ -1,0 +1,12 @@
+
+ <div *ngIf="pizza">
+  <h2>{{pizza.name | uppercase}}</h2>
+  <div><img src="{{pizza.url}}" /></div>
+  <div>
+    <label>price:
+      {{pizza.price}}
+    </label>
+  </div>
+  <button routerLink="/pizzas">go back</button>
+</div>
+
